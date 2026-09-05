@@ -3,15 +3,15 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: -150%
+    left: -15%
+    width: 35%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    top: -450%
+    right: 23%
+    width: 38%
 
 
 @keyframes float1
@@ -23,31 +23,90 @@
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 50% !important
 .banner-principal__img 
   padding-bottom: 0 !important;
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+    width: 50%;
+.banner-principal__row .banner-principal__img  img
+    width: 40%;
+    position: absolute;
+    bottom: -190px;
+    left: 100px;
     
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: $color-sistema-texto !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
-  color: $white !important
+  color: $color-sistema-texto !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $color-sistema-texto !important
 figcaption 
     font-weight: normal !important
-
+.banner-interno__titulo__icono
+  background-color: #12263F !important
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+    color: #fff !important;
+.banner-interno__fondo
+    background-image: url(../assets/curso/portada/fondo-banner-temas.png) !important
 
+.tabs-a__tab
+    background-color: #9DB89A
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+    color: $color-sistema-texto !important
+.cajon.color-acento-contenido
+    background-color: #EFF8FF
+.cajon.color-primario
+    background-color: #E6EDE5
+.tarjeta-avatar .tarjeta 
+    width: stretch;
+.slyder-f__btn i 
+    color: $color-acento-botones
+.slyder__btn 
+    background-color: $color-acento-botones
+.tarjeta--boton.color-primario
+    background-color: #FDE1C0
+.tarjeta--boton.color-primario:active, .tarjeta--boton.color-primario:focus, .tarjeta--boton.color-primario:hover
+    background-color: #E4E9C0 !important
+.tarjeta--boton.color-primario:active *, .tarjeta--boton.color-primario:focus *, .tarjeta--boton.color-primario:hover *
+    color: $color-sistema-texto !important
 
+.acordion__accion__btn--b
+    background-color: $color-acento-botones !important;
+    border: 0
+.tarjeta.bg-card
+  background-color: #9DB89A
+.tarjeta.bg-card.acordion__activo
+  background-color: #EBE0DC
+.tarjeta.bg-card.acordion__activo .acordion__titulo h3
+  color: $color-sistema-texto !important
+.acordion__accion__btn--a
+    background-color: $color-acento-botones
+.pasos-b__header__item--before .pasos-b__header__item__dot,
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after,
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+    background-color: $color-primario
+    border: 0px
+.linea-tiempo-c__header__btn, .pasos-b__header__btn--left, .pasos-b__header__btn--right, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: $color-acento-botones;
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones;
+    border: 0;
+.slyder-a__bullets__item 
+    background-color: #B7C268
+    border: 0;
+
+.slyder-a__bullets__item--active
+    background-color: $color-acento-botones;
+    border: 0;
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+      color: $color-sistema-texto !important
+      font-style: normal !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -60,16 +119,125 @@ figcaption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    //background-image: url(../assets/curso/temas/bg/2.png)
+  &-2
+    //background-image: url(../assets/curso/temas/bg/3.png)
+  &-3
+    //background-image: url(../assets/curso/temas/bg/4.svg)
+    background-size: cover
+    background-repeat: no-repeat
+  &-4
+    //background-image: url(../assets/curso/temas/bg/5.svg)
+    background-size: cover
+    background-repeat: no-repeat
+  &-5
+    //background-image: url(../assets/curso/temas/bg/6.png)
+  &-6
+    //background-image: url(../assets/curso/temas/bg/7.png)
+    background-size: cover
+    background-repeat: no-repeat
+
 .bg-color
   &-1
+    background-color: #C2E4FE
+  &-2
+    background-color: #9DB89A
+  &-3
+    background-color: #E4E9C0
+  &-4
+    background-color: #FDE1C0
+  &-5
+    background-color: #CEB1A8
+  &-6
+    background-color: #F5EFEE
+
+
+.bg
+  &-primario
     background-color: $color-primario
+  &-secundario
+    background-color: $color-secundario
+  &-acento-contenido
+    background-color: $color-acento-contenido
+  &-acento-botones
+    background-color: $color-acento-botones
+.pcus
+  &-1
+    padding-right: 3rem   
+.wcus
+  &-1
+    width: 15%
+  &-2
+    width: 90%
+  &-3
+    width: 20%
+.mcus
+  &-1
+    margin-left: 0 !important
+    padding-left: 0 !important
+  &-2
+    margin-top: 3rem
+  &-3
+    margin-right: 0 !important
+    padding-right: 0 !important
+  &-4
+    margin-top: 1.5rem
+  &-5
+    margin-top: 1.5rem
+.br
+  &-1
+    border-bottom-right-radius: 4rem
+  &-2
+    border-top-left-radius: 4rem
+  &-3
+    border-top-right-radius: 4rem
+  &-4
+    border-bottom-left-radius: 4rem
+  &-5
+    border-radius: 2rem
+  &-6
+    border-bottom: 5px solid $color-acento-contenido
+    width: fit-content
+.hcard
+  &-1
+    height: 420px
+  &-2
+    height: 330px
+.titulo-tercer-nivel
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  border-top: 10px solid #B7C268
+  padding-right: 16px
+  padding-left: 25px
+  min-height: 48px
+  margin-left: 30px
+ 
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 0px
+    margin-left: 0px
 
 
 
+  &__icon
+    position: absolute
+    left: -22px
+    top: 33%
+    transform: translateY(-50%)
+    width: 40px
+    max-width: 85px
+    height: auto
 
+    @media screen and (max-width: $bp-min-md)
+      display: none
 
-
+  &__text
+    margin: 0
+    margin: 0 15px 0 10px
+    white-space: normal
+    word-break: break-word
 
 /**************************************************************/
 /*Media Queries*/  
@@ -79,28 +247,59 @@ figcaption
 @media screen and (max-width: $bp-min-xxl)
   .mb-cus
     margin-bottom: 2em  !important 
+  .bg-fondo
+    &-4
+      background-image: none
+      background-color: #B7C268
+  
 
 //// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
+  .banner-principal .tarjeta
+    background-image: url(../assets/curso/portada/fondo-banner-principal-tablet.png) !important  
   .mb-cus
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
-
-  
- 
+  .bloque-texto-g
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  .slyder-a__btn--sigt
+    right: -10% !important;
+  .slyder-a__btn--atrs
+    left: -10% !important;
+  .br
+    &-1, &-2, &-3, &-4
+      border-radius: 0rem !important
+  .mcus
+    &-2, &-4
+      margin-top: 0rem
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
+  .hcard
+    &-1, &-2
+      height: auto
   
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
-
+  .banner-principal .tarjeta
+    background-image: url(../assets/curso/portada/fondo-banner-principal-mobile.png) !important
+  .slyder-a__bullets__item
+    margin: 5px;
+    width: 5px;
+    height: 5px;
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px;
+    height: 30px;
+  .slyder-a__btn--sigt
+    right: -9% !important;
+  .slyder-a__btn--atrs
+    left: -9% !important;
   
  
