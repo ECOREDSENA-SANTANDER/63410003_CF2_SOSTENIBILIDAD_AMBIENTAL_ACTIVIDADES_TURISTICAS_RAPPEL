@@ -119,23 +119,25 @@ figcaption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/temas/bg/2.png)
+    background-image: url(../assets/curso/temas/bg/2.png)
   &-2
-    //background-image: url(../assets/curso/temas/bg/3.png)
+    background-image: url(../assets/curso/temas/bg/3.png)
   &-3
-    //background-image: url(../assets/curso/temas/bg/4.svg)
+    background-image: url(../assets/curso/temas/bg/4.svg)
     background-size: cover
     background-repeat: no-repeat
   &-4
-    //background-image: url(../assets/curso/temas/bg/5.svg)
+    background-image: url(../assets/curso/temas/bg/5.svg)
     background-size: cover
     background-repeat: no-repeat
   &-5
-    //background-image: url(../assets/curso/temas/bg/6.png)
+    background-image: url(../assets/curso/temas/bg/6.png)
   &-6
-    //background-image: url(../assets/curso/temas/bg/7.png)
+    background-image: url(../assets/curso/temas/bg/7.png)
     background-size: cover
     background-repeat: no-repeat
+  &-7
+    background-image: url(../assets/curso/temas/bg/8.png)
 
 .bg-color
   &-1
@@ -203,6 +205,8 @@ figcaption
     height: 420px
   &-2
     height: 330px
+  &-3
+    height: 280px
 .titulo-tercer-nivel
   width: fit-content
   max-width: 100%
@@ -275,6 +279,9 @@ figcaption
     &-2, &-4
       margin-top: 0rem
   
+  .p-full-width
+    padding: 0rem 3.5rem!important;
+  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
@@ -282,6 +289,8 @@ figcaption
   .hcard
     &-1, &-2
       height: auto
+  .tarjeta--container > .tarjeta
+    border-radius: 30px !important;
   
 
 //// MOBILE 576--------------------------------------
@@ -301,5 +310,6 @@ figcaption
     right: -9% !important;
   .slyder-a__btn--atrs
     left: -9% !important;
+  
   
  
