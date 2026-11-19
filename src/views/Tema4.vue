@@ -31,6 +31,10 @@
       
       p.mb-5(data-aos='fade-right') El registro, el reporte y el seguimiento permiten organizar la información generada durante la actividad y utilizarla posteriormente para verificar las prácticas implementadas, comunicar situaciones relevantes y reconocer cambios que requieran atención.
 
+      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Registro y reporte de información ambiental
+
       .row.justify-content-center.mb-0.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-7
             .row.justify-content-center.mb-3

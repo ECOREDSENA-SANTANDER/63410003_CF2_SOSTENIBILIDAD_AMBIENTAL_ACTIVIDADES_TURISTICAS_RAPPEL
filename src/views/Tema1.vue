@@ -26,6 +26,10 @@
       
       p.mb-5(data-aos='fade-right') Este apartado integra el manejo ambiental y los principios de mínimo impacto como referentes complementarios para orientar la planificación de actividades turísticas de #[i rappel]. A partir de estos enfoques se organizan medidas y prácticas acordes con las condiciones del escenario, con el propósito de reducir las presiones derivadas del uso turístico y favorecer una actuación responsable durante el recorrido.
 
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Manejo y buenas prácticas ambientales
+
       .row.justify-content-center.mb-5.align-items-center(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/2.png')
@@ -112,7 +116,7 @@
                 .row.justify-content-center.mb-5
                     .col-sm-12.col-lg-6.px-4.py-4
                         p.mb-3 Busca reducir la intensidad, extensión o duración de una afectación que no puede evitarse completamente. Concentrar el tránsito en recorridos previamente definidos, organizar grupos con un tamaño adecuado o seleccionar puntos de espera sobre superficies resistentes son medidas que pueden disminuir la presión sobre áreas sensibles.
-                        p.mb-0 La mitigación debe guardar correspondencia con la causa del impacto. Si la medida propuesta no ataca la afectación generadora ni reduce sus consecuencias, difícilmente cumplirá su propósito
+                        p.mb-0 La mitigación debe guardar correspondencia con la causa del impacto. Si la medida propuesta no ataca la afectación generadora ni reduce sus consecuencias, difícilmente cumplirá su propósito ambiental.
                     .col-sm-12.col-lg-6.d-none.d-lg-block
                         img(src='@/assets/curso/temas/t1/10.png')
 
@@ -158,7 +162,7 @@
         SlyderA(tipo="b").p-4
           .row.justify-content-center.mb-0.align-items-center
               .col-sm-12.col-lg-6
-                  h4 Prevención
+                  h4 Preparación
                   p.mb-0 Revisar previamente las condiciones ambientales relevantes del recorrido para anticipar situaciones que requieran medidas de manejo.
               .col-sm-12.col-lg-6.d-none.d-lg-block
                   img(src='@/assets/curso/temas/t1/14.png')
@@ -280,6 +284,10 @@
 
       p.mb-5(data-aos='fade-right') El manejo ambiental adquiere efectividad cuando las medidas son pertinentes, específicas, viables, comunicables y verificables. Estos criterios permiten convertir los principios generales de sostenibilidad en actuaciones concretas que puedan incorporarse a la planificación o desarrollo de una actividad turística de #[i rappel].
 
+      .titulo-tercer-nivel.mb-5(data-aos='fade-right')
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Principios de mínimo impacto en espacios naturales
+
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/25.png')
@@ -331,9 +339,9 @@
               .col-sm-12.col-lg-12.px-4.py-4
                 p.mb-3 Durante la alimentación o el descanso deben evitarse residuos, restos orgánicos o elementos asociados con la permanencia que puedan modificar las condiciones del lugar. Antes de abandonar el escenario es necesario revisar el espacio utilizado para detectar residuos o situaciones derivadas de la actividad.
                 p.mb-0 En Colombia, la gestión integral de residuos se rige por el código unificado de colores para la separación en la fuente (Resolución 2184 de 2019). Durante las actividades de #[i rappel], los residuos generados deben clasificarse temporalmente para garantizar su posterior traslado y disposición adecuada fuera del área natural.
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Tabla 2.] Clasificación de residuos aplicable a actividades de #[i rappel]
-            .tabla-a.color-primario.mb-0.bg-white(data-aos='fade-right')
+            .tabla-a.color-primario.mb-0.bg-white
               table
                 thead
                   tr
@@ -359,7 +367,7 @@
             .row.justify-content-center.mb-0
               .col-sm-12.col-lg-6.px-4.py-4
                 p.mb-3 Extraer plantas, recolectar rocas, intervenir formaciones, realizar inscripciones sobre superficies naturales o modificar elementos del paisaje puede producir alteraciones acumulativas cuando estas conductas se repiten.
-                p.mb-0 En escenarios de #[i rappel], este principio implica evitar modificaciones ambientales innecesarias durante la preparación o permanencia del grupo y procurar mantener las condiciones naturales del espacio dentro de los procedimientos técnicos, autorizaciones o requisitos aplicables. Este criterio adquiere especial importancia en ecosistemas sensibles, áreas con valores geológicos particulares, espacios protegidos o territorios sujetos a medidas especiales de conservación.
+                p.mb-0 n escenarios de #[i rappel], este principio implica evitar modificaciones ambientales innecesarias durante la preparación o permanencia del grupo y procurar mantener las condiciones naturales del espacio dentro de los procedimientos técnicos, autorizaciones o requisitos aplicables. Este criterio adquiere especial importancia en ecosistemas sensibles, áreas con valores geológicos particulares, espacios protegidos o territorios sujetos a medidas especiales de manejo.
               .col-sm-12.col-lg-6.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t1/31.png')
 
@@ -367,7 +375,7 @@
           .col-12.pcus-2
             .row.justify-content-center.mb-0
               .col-sm-12.col-lg-6.px-4.py-4
-                p.mb-0 Evitar el uso innecesario de fogatas en áreas naturales y restringir su encendido a zonas expresamente autorizadas o acondicionadas. En recorridos de #[i rappel], las prácticas operativas deben prescindir del fuego para la preparación de alimentos o iluminación, previniendo el riesgo de incendios de cobertura vegetal, la alteración del suelo y la fauna.
+                p.mb-0 Evitar el uso innecesario de fogatas en áreas naturales y restringir su encendido a zonas expresamente autorizadas o acondicionadas. En recorridos de #[i rappel], las prácticas operativas deben prescindir del fuego para la preparación de alimentos o iluminación, previniendo el riesgo de incendios de cobertura vegetal, la alteración del suelo y la acumulación de cenizas o carbón en el escenario.
               .col-sm-12.col-lg-6.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t1/32.png')
 
@@ -502,7 +510,7 @@
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Componentes de la capacidad de carga
-
+      p.mb-5 Para fines de planificación turística, pueden diferenciarse varias dimensiones que facilitan la comprensión de la capacidad de un recorrido. Estas dimensiones se encuentran relacionadas entre sí, por lo que una limitación identificada en una de ellas puede modificar las posibilidades de uso del escenario. 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-9
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -563,7 +571,7 @@
               p.mb-0 La posibilidad de recibir participantes también depende de los recursos disponibles para organizar adecuadamente la actividad. Personal, tiempos de operación, puntos de control, mecanismos de comunicación, procedimientos establecidos o posibilidades de seguimiento forman parte de esta dimensión.
 
             .tarjeta.bg-color-4.p-4(titulo="Capacidad social")
-              p.mb-0 incorpora la relación entre el uso turístico, la experiencia de los visitantes o las dinámicas territoriales. La concentración excesiva de grupos puede disminuir la calidad de la experiencia, incrementar el ruido, producir interferencias entre recorridos o generar conflictos con otros usuarios o comunidades.
+              p.mb-0  Incorpora la relación entre el uso turístico, la experiencia de los visitantes o las dinámicas territoriales. La concentración excesiva de grupos puede disminuir la calidad de la experiencia, incrementar el ruido, producir interferencias entre recorridos o generar conflictos con otros usuarios o comunidades locales.
 
       .titulo-tercer-nivel.mb-5(data-aos='fade-right')
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
